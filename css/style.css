@@ -24,11 +24,12 @@ body a{
 }
 .logo{
 	float:left;
-	margin-right: 2%;
+	margin-right: 0%;
 }
 .menu{
 	 float:left;
 	 margin: 17px 0 0;
+	 margin-top: 30px;
 }
   .menu li{
 	display:inline-block;
@@ -58,6 +59,9 @@ body a{
 .toggleMenu {
     display:  none;
   	padding:4px 5px 0px 5px;
+}
+.nav {
+	margin-left: 20px;
 }
 .nav:before,
 .nav:after {
