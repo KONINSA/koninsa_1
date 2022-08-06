@@ -15,8 +15,10 @@ body a{
 	-o-transition: 0.5s all;
 }
 .header{
-	background:#000;
+	background:rgb(255, 255, 255);
 	padding: 1.5% 0;
+	height: 150px;
+	
 }
 .header-left{
 	float:left;
@@ -28,8 +30,9 @@ body a{
 }
 .menu{
 	 float:left;
-	 margin: 17px 0 0;
-	 margin-top: 30px;
+	 margin: 10px 0 0;
+	 margin-top: 40px;
+	 font-size: 100%;
 }
   .menu li{
 	display:inline-block;
@@ -42,7 +45,7 @@ body a{
 	font-size: 0.8125em;
 	text-transform: uppercase;
 	padding: 5px 20px;
-	color: #FFF;
+	color: rgb(0, 0, 0);
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
@@ -50,8 +53,8 @@ body a{
 	font-weight: 600;
  }
  .menu li a:hover ,.menu li.active a{
-	 background:#fff;
-	 color:#000;
+	 background:rgb(207, 209, 195);
+	 color:rgb(50, 71, 163);
  } 
  #nav .current a {
 	 color:red;
