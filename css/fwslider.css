@@ -9,10 +9,13 @@
     top:0;
     left:0;
     z-index: 0;
-    width:100%;
+    width: 100%;
+    height: auto;
 }
 #fwslider .slide img {
     width:100%;
+    height: 300px;
+    margin: 0px;
 }
 #fwslider .slidePrev {
   	position: absolute;
@@ -67,12 +70,12 @@
 #fwslider .slide_content {
     top:0;
     left:0;
-    position: absolute;
+    position:relative;
     width:100%;
-    height:100%;
+    height:auto;
 }
 #fwslider .slide_content_wrap { /* Slider Text Content Container Style */
-    max-width: 600px;
+    max-width: 100%;
 	margin: 12% auto;
 }
 #fwslider .title {  /* Slider Title Style */
@@ -105,7 +108,7 @@
 		font-size: 4em;
 	}
 }
-@media (max-width:768px)
+@media (max-width:768px){
 	#fwslider .title {
 		margin-left: 19%;
 		font-size: 3em;
